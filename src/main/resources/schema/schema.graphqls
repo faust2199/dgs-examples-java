@@ -30,6 +30,7 @@ input SubmittedReview {
     showId: Int!
     username: String!
     starScore: Int!
+    submittedDate: DateTime
 }
 
 type Image {
